@@ -55,7 +55,6 @@ class movements {
   }
 
   function view_labels($label1, $label2, $label3) {
-    //echo "<p>--<b>$label1</b>: " . $movement . " --<b>$label2</b>: " . $sets . " --<b>$label3</b>: " . $reps . "</p>";
     echo "<table border='1'>";
     echo "<tr><td>";
     echo "<b>$label1 &nbsp</b>";
