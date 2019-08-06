@@ -1,8 +1,6 @@
 <?php //functions and such
 session_start();
 require_once "pdo.php";
-global $tryarray;
-
 
 class check {
 
@@ -45,7 +43,7 @@ class movements {
     }
     return $table_data;
   }
-// sorry for the big mess here Future Pat
+  
   function build_table($movement, $sets, $reps) {
       echo "<tr><td>&nbsp";
       echo $movement;
@@ -54,8 +52,6 @@ class movements {
       echo "</td><td>&nbsp";
       echo $reps;
       echo "</td></tr>";
-    //print_r($tryarray);
-    //echo $tryarray[0]['sets'];
   }
 
   function view_labels($label1, $label2, $label3) {
